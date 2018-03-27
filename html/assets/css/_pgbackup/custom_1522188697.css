@@ -162,21 +162,5 @@
 
 .grid_blue_bkg {
     background-color: #0077B5;
-}
-
-.g-absolute_bottom {
-    position: absolute !important;
-    top: 75% !important;
-    left: 50% !important;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-backface-visibility: hidden;
-}
-
-.height100p {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: auto;
 }
