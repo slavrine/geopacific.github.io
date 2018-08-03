@@ -180,22 +180,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.geophysics_hero {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 80vh;
-    background-position: center;
-    background-image: url('../img/geophysics_page/hero.jpg');
-}
-
-.geophysics_hero_h2 {
-    color: #efefef;
-    margin: 30px;
-    font-size: 2.5em;
-}
-
-.geophysics_page_diagram_size {
-    width: 250;
-}
