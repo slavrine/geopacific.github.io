@@ -225,3 +225,12 @@
     background-position: top center;
     background-image: url('../img/project_one_page/hero.JPG');
 }
+
+.job_description_one_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/job_description_one/hero.jpg');
+}
