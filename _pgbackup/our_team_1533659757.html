@@ -20,6 +20,8 @@
         <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css"> 
         <link rel="stylesheet" href="assets/vendor/wait-animate.min.css"> 
         <link rel="stylesheet" href="assets/vendor/animate.css"> 
+        <!-- CSS Implementing Plugins -->
+        <link  rel="stylesheet" href="assets/vendor/custombox/custombox.min.css">
         <link rel="stylesheet" href="assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css"> 
         <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css"> 
         <!-- CSS Template -->         
@@ -81,56 +83,41 @@
                 </div>                 
             </header>
             <section class="d-flex geophysics_hero justify-content-start align-items-end">
-                <div class="our_team_hero_tilte_bck">
-                    <h2 class="geophysics_hero_h2">GEOPHYSICS &amp; UTILITY LOCATING</h2>
-                </div>
-            </section>                          
+                <h2 class="geophysics_hero_h2">OUR TEAM</h2>
+            </section>             
             <!-- End Header -->             
             <!-- Section Content -->             
             <section id="home"> 
 </section>             
             <!-- End Section Content -->             
-            <!-- Section Content -->                          
+            <!-- Section Content -->             
             <!-- End Section Content -->             
             <!-- Section Content -->             
             <section id="about" class="g-py-80"> 
                 <div class="container"> 
                     <div class="row"> 
-                        <div class="col-md-5 g-mb-30 g-mb-0--md"> 
-                            <img class="img-fluid g-mb-30" src="img/geophysics_page/gpr_screen.jpg" alt="Image description"> 
-                            <p class="mb-0">GPR Screen recording with a hyperbolic&nbsp; reflection</p> 
+                        <div class="col-md-5 g-mb-30 g-mb-0--md d-flex justify-content-center align-items-center"> 
+                            <img class="img-fluid g-mb-30" src="img/our_team/matt_kokan.jpg" alt="Image description">                              
                         </div>                         
                         <div class="col-md-7"> 
-                            <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-black g-mb-10">UTILITY LOCATING</h3>
-                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">We utilize Ground Penetrating radar (GPR) tehnology to image the underlying utilities. The radar waves are send into the ground, reflecting at various interfaces. The time it takes for a wave to reflect and come back to the surface lets us measure the depth.</p>
-                            <div id="galleryCubePortfolio" class="cbp geophysics_page_diagram_size" data-controls="#galleryCubePortfolioFilter" data-layout="grid" data-animation="slideLeft" data-caption-animation="fadeIn" data-x-gap="0" data-y-gap="0" data-media-queries='[
-               {"width": 200, "cols": 1},
-               {"width": 200, "cols": 1},
-               {"width": 200, "cols": 1}
-             ]' style="height: 315px;width: 200px;"> 
-                                <div class="cbp-item" style="width: 200px; left: 0px; top: 0px;"> 
-                                    <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/geophysics_page/gpr_diagram_large.jpg" data-title="GPR principles. Credits: Impulse source"> 
-                                        <div class="cbp-caption-defaultWrap"> 
-                                            <img src="img/geophysics_page/gpr_diagram_small.jpg" alt="Image description"> 
-                                        </div>                                         
-                                        <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
-                                            <div class="cbp-l-caption g-py-20 g-px-30"> 
-                                                <div class="cbp-l-caption-body"> 
-                                                    <div class="u-heading-v8-1"> 
-                                                        <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">GPR principles</strong> <br> click to expand</h2> 
-                                                    </div>                                                     
-                                                </div>                                                 
-                                            </div>                                             
-                                        </div>                                         
-                                    </a>                                     
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-center align-items-center flex-column">
-                                <div class="cbp-item"> 
-</div>
-                            </div>
+                            <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-black g-mb-10"><header>
+                                    <h1>Matt Kokan</h1>
+                                </header></h3>
+                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Matt Kokan is both owner and principal of GeoPacific Consultants. Matt joined the GeoPacific in 1993 as a young engineer and since has grown the firm to include two offices, 40 staff and a testing laboratory.</p>
                             <br/>
-                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">We have both shallower GPR units for examining concrete foundations/ walls and deeper units for gas, water, sewer, sanitary, electricity and communication utilities.</p>
+                            <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2"  href="#modal1" data-modal-target="#modal1" data-modal-effect="fadein"><i class="fa fa-arrow-right g-color-primary mr-2"></i>READ MORE</a>
+                            <!-- Demo modal window -->
+                            <div id="modal1" class="text-left g-max-width-600 g-bg-white g-overflow-y-auto g-pa-20" style="display: none;">
+                                <button type="button" class="close" onclick="Custombox.modal.close();">
+                                <i class="hs-icon hs-icon-close"></i>
+                                </button>
+                                <h4 class="g-mb-20">Modal title</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book.</p>
+                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                                recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
+                            <!-- End Demo modal window -->
                         </div>                         
                     </div>                     
                 </div>                 
@@ -140,13 +127,13 @@
             <!-- End Section Content -->             
             <!-- Section Content -->             
             <!-- End Section Content -->             
-            <!-- Section Content -->                          
-            <!-- End Section Content -->             
-            <!-- Section Content -->             
-            <!-- End Section Content -->                          
             <!-- Section Content -->             
             <!-- End Section Content -->             
-            <!-- Section Content -->                          
+            <!-- Section Content -->             
+            <!-- End Section Content -->             
+            <!-- Section Content -->             
+            <!-- End Section Content -->             
+            <!-- Section Content -->             
             <!-- End Section Content -->             
             <!-- Footer -->             
             <footer> 
@@ -301,7 +288,10 @@
         <script src="assets/js/components/hs.tabs.js"></script>         
         <script src="assets/js/components/hs.cubeportfolio.js"></script>         
         <script src="assets/js/components/hs.carousel.js"></script>         
-        <script src="assets/js/components/hs.go-to.js"></script>         
+        <script src="assets/js/components/hs.go-to.js"></script>
+        <script  src="assets/js/components/hs.modal-window.js"></script>
+         <!-- JS Implementing Plugins -->
+        <script  src="assets/vendor/custombox/custombox.min.js"></script>
         <!-- JS Master Slider -->         
         <script src="assets/vendor/master-slider/source/assets/js/masterslider.min.js"></script>         
         <!-- JS Customization -->         
@@ -311,6 +301,7 @@
       $(document).on('ready', function () {
         // initialization of carousel
         $.HSCore.components.HSCarousel.init('.js-carousel');
+        $.HSCore.components.HSModalWindow.init('[data-modal-target]');
 
         $('#we-provide').slick('setOption', 'responsive', [{
           breakpoint: 992,

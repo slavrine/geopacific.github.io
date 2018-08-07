@@ -187,7 +187,7 @@
     width: 100vw;
     height: 80vh;
     background-position: top center;
-    background-image: url('../img/geophysics_page/hero.jpg');
+    background-image: url('file:///C:/Users/slavrinenko/Documents/website/geopacific.github.io/img/our_team/hero.jpg');
 }
 
 .geophysics_hero_h2 {
@@ -205,14 +205,5 @@
 }
 
 .our_team_hero_tilte_bck {
-    background-color: rgba(0, 119, 181,0.7);
-}
-
-.our_team_hero {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 80vh;
-    background-position: top center;
-    background-image: url('../img/our_team_page/hero.jpg');
+    background-color: rgba(0, 119, 181,0.5);
 }

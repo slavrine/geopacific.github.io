@@ -186,7 +186,7 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 80vh;
-    background-position: top center;
+    background-position: center;
     background-image: url('../img/geophysics_page/hero.jpg');
 }
 
@@ -198,21 +198,4 @@
 
 .geophysics_page_diagram_size {
     width: 250;
-}
-
-.our_team_modal_p {
-    font-size: 01rem;
-}
-
-.our_team_hero_tilte_bck {
-    background-color: rgba(0, 119, 181,0.7);
-}
-
-.our_team_hero {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 80vh;
-    background-position: top center;
-    background-image: url('../img/our_team_page/hero.jpg');
 }
