@@ -216,12 +216,3 @@
     background-position: top center;
     background-image: url('../img/our_team_page/hero.jpg');
 }
-
-.project_one_hero {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 80vh;
-    background-position: top center;
-    background-image: url('../img/project_one_page/hero.JPG');
-}
