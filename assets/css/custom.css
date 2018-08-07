@@ -240,6 +240,6 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 80vh;
-    background-position: top center;
+    background-position: center;
     background-image: url('../img/get_a_quote/hero.jpg');
 }
