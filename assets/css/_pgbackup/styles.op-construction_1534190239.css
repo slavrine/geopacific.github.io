@@ -28254,7 +28254,7 @@ pre[class*="language-"] .toolbar-item a {
 
 .g-bg-primary-opacity-0_9--before::after,
 .g-bg-primary-opacity-0_9--after::after {
-    /*background-color: rgba(0,119,181,0.9) !important*/
+    background-color: rgba(0,119,181,0.9) !important;
 }
 
 .g-bg-primary-opacity-0_9--before--hover:hover::after,
@@ -35984,8 +35984,8 @@ pre[class*="language-"] .toolbar-item a {
     }
 
     .g-mx-15 {
-        margin-left: 1.07150rem !important;
-        margin-right: 1.07150rem !important;
+        margin-left: 1.07143rem !important;
+        margin-right: 1.07143rem !important;
     }
 
     .g-mx-20 {

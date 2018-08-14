@@ -269,7 +269,7 @@ a.btn .btn-md .g-mr-10 .g-mb-15 .u_btn_outline_white:hover {
 }
 
 .tilte_container {
-    margin: 4em 4em 4em 4em;
+    margin: 8em 4em 4em 4em;
 }
 
 #us.us_h4_topmargin {
@@ -277,14 +277,10 @@ a.btn .btn-md .g-mr-10 .g-mb-15 .u_btn_outline_white:hover {
 }
 
 .maps_style {
-    width: 50%;
-    height: 30%;
+    width: 70vw;
+    height: 50vh;
 }
 
 #canada.canada_h4_margin {
-    margin-bottom: 4em !important;
-}
-
-.services_container {
-    height: 42vh;
+    margin-bottom: 3em !important;
 }
