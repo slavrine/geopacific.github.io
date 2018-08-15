@@ -20,6 +20,8 @@
         <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css"> 
         <link rel="stylesheet" href="assets/vendor/wait-animate.min.css"> 
         <link rel="stylesheet" href="assets/vendor/animate.css"> 
+        <!-- CSS Implementing Plugins -->
+        <link rel="stylesheet" href="assets/vendor/custombox/custombox.min.css">
         <link rel="stylesheet" href="assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css"> 
         <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css"> 
         <!-- CSS Template -->         
@@ -77,9 +79,9 @@
                     </nav>                     
                 </div>                 
             </header>
-            <section class="d-flex geophysics_hero justify-content-start align-items-end">
+            <section class="d-flex justify-content-start align-items-end our_team_hero">
                 <div class="our_team_hero_tilte_bck">
-                    <h2 class="geophysics_hero_h2">GEOPHYSICS &amp; UTILITY LOCATING</h2>
+                    <h2 class="geophysics_hero_h2">OUR TEAM</h2>
                 </div>
             </section>             
             <!-- End Header -->             
@@ -91,43 +93,107 @@
             <!-- End Section Content -->             
             <!-- Section Content -->             
             <section id="about" class="g-py-80"> 
-                <div class="container"> 
+                <div class="container padding_our_team"> 
                     <div class="row"> 
-                        <div class="col-md-5 g-mb-30 g-mb-0--md"> 
-                            <img class="img-fluid g-mb-30" src="img/geophysics_page/gpr_screen.jpg" alt="Image description"> 
-                            <p class="mb-0">GPR Screen recording with a hyperbolic&nbsp; reflection</p> 
+                        <div class="g-mb-30 g-mb-0--md d-flex justify-content-center align-items-center col-md-4"> 
+                            <img class="img-fluid g-mb-30" src="img/our_team/matt_kokan.jpg" alt="Image description"> 
                         </div>                         
-                        <div class="col-md-7"> 
-                            <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-black g-mb-10">UTILITY LOCATING</h3>
-                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">We utilize Ground Penetrating radar (GPR) tehnology to image the underlying utilities. The radar waves are send into the ground, reflecting at various interfaces. The time it takes for a wave to reflect and come back to the surface lets us measure the depth.</p>
-                            <div id="galleryCubePortfolio" class="cbp geophysics_page_diagram_size" data-controls="#galleryCubePortfolioFilter" data-layout="grid" data-animation="slideLeft" data-caption-animation="fadeIn" data-x-gap="0" data-y-gap="0" data-media-queries='[
-               {"width": 200, "cols": 1},
-               {"width": 200, "cols": 1},
-               {"width": 200, "cols": 1}
-             ]' style="height: 315px;width: 200px;"> 
-                                <div class="cbp-item" style="width: 200px; left: 0px; top: 0px;"> 
-                                    <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/geophysics_page/gpr_diagram_large.jpg" data-title="GPR principles. Credits: Impulse source"> 
-                                        <div class="cbp-caption-defaultWrap"> 
-                                            <img src="img/geophysics_page/gpr_diagram_small.jpg" alt="Image description"> 
-                                        </div>                                         
-                                        <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
-                                            <div class="cbp-l-caption g-py-20 g-px-30"> 
-                                                <div class="cbp-l-caption-body"> 
-                                                    <div class="u-heading-v8-1"> 
-                                                        <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">GPR principles</strong> <br> click to expand</h2> 
-                                                    </div>                                                     
-                                                </div>                                                 
-                                            </div>                                             
-                                        </div>                                         
-                                    </a>                                     
+                        <div class="col-md-8"> 
+                            <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-black g-mb-10"><header>
+                                    <h1>Matt Kokan</h1>
+                                </header></h3>
+                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Matt Kokan is both owner and principal of GeoPacific Consultants. Matt joined the GeoPacific in 1993 as a young engineer and since has grown the firm to include two offices, 40 staff and a testing laboratory.</p>
+                            <br/>
+                            <div class="d-flex flex-row align-items-center justify-content-start">
+                                <a class="btn-lg u-btn-darkgray u-btn-inset mx-2 btn" href="#modal1" data-modal-target="#modal1" data-modal-effect="fadein"><i class="fa fa-arrow-right g-color-primary mr-2"></i>READ MORE</a>
+                                <div class="d-inline-block">
+                                    <div class="d-flex justify-content-between w-100 g-max-width-145 g-bg-black g-color-white g-font-size-10 g-font-weight-700 text-uppercase">
+                                        <span class="g-px-15 g-py-6 d-flex flex-row justify-content-center align-items-center contact_font">contact</span>
+                                        <img src="img/our_team/kokan_email.jpeg" height="60"/>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex justify-content-center align-items-center flex-column">
-                                <div class="cbp-item"> 
-</div>
+                            <!-- Demo modal window -->
+                            <div id="modal1" class="text-left g-max-width-600 g-bg-white g-overflow-y-auto g-pa-20" style="display: none;">
+                                <button type="button" class="close" onclick="Custombox.modal.close();">
+                                    <i class="hs-icon hs-icon-close"></i>
+                                </button>
+                                <h4 class="g-mb-20">KEVIN BODNAR</h4>
+                                <p class="our_team_modal_p"><p>Kevin Bodnar earned his Bachelor of Engineering degree from the British Columbia Institute of Technology while working as a geotechnical technologist and joined GeoPacific in 2009 as a project engineer.  He subsequently completed his Masters of Engineering degree at the University of British Columbia in 2015, while maintaining his role at GeoPacific. Kevin is registered as a professional engineer in British Columbia and Alberta and is a member of the Vancouver Geotechnical Society.</p><p>Kevin began working in the field of geotechnical engineering in 2005 and has experience on a wide variety of projects in the Lower Mainland and elsewhere in BC and Alberta.  Kevin is experienced in seismic design, foundation design, slope stability assessments, retaining wall design, shoring design, and soft soil engineering for projects ranging from small residential developments to high rise buildings, tilt-up commercial buildings, port facility upgrades, municipal roads and services, and telecommunication towers.</p></p>
                             </div>
+                            <!-- End Demo modal window -->
+                        </div>                         
+                    </div>                     
+                </div>
+                <div class="container padding_our_team"> 
+                    <div class="row"> 
+                        <div class="col-md-8"> 
+                            <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-black g-mb-10"><header>
+                                    <h1><header>
+                                            <h1>Kevin Bodnar</h1>
+                                        </header></h1>
+                                </header></h3>
+                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Kevin is experienced in seismic design, foundation design, slope stability assessments, retaining wall design, shoring design, and soft soil engineering.</p>
                             <br/>
-                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">We have both shallower GPR units for examining concrete foundations/ walls and deeper units for gas, water, sewer, sanitary, electricity and communication utilities.</p>
+                            <div class="d-flex flex-row align-items-center justify-content-start">
+                                <a class="btn-lg u-btn-darkgray u-btn-inset mx-2 btn" href="#modal2" data-modal-target="#modal1" data-modal-effect="fadein"><i class="fa fa-arrow-right g-color-primary mr-2"></i>READ MORE</a>
+                                <div class="d-inline-block">
+                                    <div class="d-flex justify-content-between w-100 g-max-width-145 g-bg-black g-color-white g-font-size-10 g-font-weight-700 text-uppercase">
+                                        <span class="g-px-15 g-py-6 d-flex flex-row justify-content-center align-items-center contact_font">contact</span>
+                                        <img src="img/our_team/kokan_email.jpeg" height="60"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Demo modal window -->
+                            <div id="modal2" class="text-left g-max-width-600 g-bg-white g-overflow-y-auto g-pa-20" style="display: none;">
+                                <button type="button" class="close" onclick="Custombox.modal.close();">
+                                    <i class="hs-icon hs-icon-close"></i>
+                                </button>
+                                <h4 class="g-mb-20">MATT KOKAN</h4>
+                                <p class="our_team_modal_p">Matt Kokan is both owner and principal of GeoPacific Consultants. Matt joined the GeoPacific in 1993 as a young engineer and since has grown the firm to include two offices, 40 staff and a testing laboratory.</p>
+                                <p class="our_team_modal_p">Matt received a Bachelor of Applied Science in Geological Engineering in 1990 from the University of British Columbia. While working as a geotechnical engineer for ConeTec, Matt received his Master of Applied Science in Civil Engineering in 1992. Matt is a professional engineer and is registered in British Columbia, Alberta, and Ontario. He is also a member of the Vancouver Geotechnical Society, Deep Foundations Institute, and International Society for Micropiles.</p>
+                                <p class="our_team_modal_p">With close to 5000 projects under his direction, Matt has a wealth of management and geotechnical engineering experience across the Lower Mainland, BC, Alberta, Ontario, Washington, and California.  Some of his most notable projects include the deepest excavation in Vancouver history The Shangri-La, The Wall Centre, The Canada Line shoring design and 2010 Olympic Village. GeoPacific has also been involved in the design for the temporary shoring for the Sea to Sky Highway, Port Mann Bridge, and most recently the South Fraser Perimeter Road.  Matt has been involved in numerous building restoration projects, particularly the Downtown Vancouver core.</p>
+                                <p class="our_team_modal_p">Matt has had extensive experience in a number of geotechnical engineering areas. His projects have included analysis and design for commercial, residential, industrial and infrastructure projects. Matt has significant expertise in infrastructure works, designs of pile supported buildings on soft ground, excavation and shoring system designs, offshore structure foundation design and evaluation, arenas, slope stability, environmental project assistance, and offshore drilling and testing. His expertise in pile loading and jet grouting has been widely recognized both nationally and internationally through paper presentations.</p>
+                            </div>
+                            <!-- End Demo modal window -->
+                        </div>
+                        <div class="g-mb-30 g-mb-0--md d-flex justify-content-center align-items-center col-md-4"> 
+                            <img class="img-fluid g-mb-30" src="img/our_team/kevin_bodnar.jpg" alt="Image description"> 
+                        </div>                                                  
+                    </div>                     
+                </div>
+                <div class="container padding_our_team"> 
+                    <div class="row"> 
+                        <div class="col-md-5 g-mb-30 g-mb-0--md d-flex justify-content-center align-items-center"> 
+                            <img class="img-fluid g-mb-30" src="img/our_team/matt_kokan.jpg" alt="Image description"> 
+                        </div>                         
+                        <div class="col-md-7"> 
+                            <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-black g-mb-10"><header>
+                                    <h1>Matt Kokan</h1>
+                                </header></h3>
+                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Matt Kokan is both owner and principal of GeoPacific Consultants. Matt joined the GeoPacific in 1993 as a young engineer and since has grown the firm to include two offices, 40 staff and a testing laboratory.</p>
+                            <br/>
+                            <div class="d-flex flex-row align-items-center justify-content-start">
+                                <a class="btn-lg u-btn-darkgray u-btn-inset mx-2 btn" href="#modal1" data-modal-target="#modal1" data-modal-effect="fadein"><i class="fa fa-arrow-right g-color-primary mr-2"></i>READ MORE</a>
+                                <div class="d-inline-block">
+                                    <div class="d-flex justify-content-between w-100 g-max-width-145 g-bg-black g-color-white g-font-size-10 g-font-weight-700 text-uppercase">
+                                        <span class="g-px-15 g-py-6 d-flex flex-row justify-content-center align-items-center contact_font">contact</span>
+                                        <img src="img/our_team/kokan_email.jpeg" height="60"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Demo modal window -->
+                            <div id="modal1" class="text-left g-max-width-600 g-bg-white g-overflow-y-auto g-pa-20" style="display: none;">
+                                <button type="button" class="close" onclick="Custombox.modal.close();">
+                                    <i class="hs-icon hs-icon-close"></i>
+                                </button>
+                                <h4 class="g-mb-20">MATT KOKAN</h4>
+                                <p class="our_team_modal_p">Matt Kokan is both owner and principal of GeoPacific Consultants. Matt joined the GeoPacific in 1993 as a young engineer and since has grown the firm to include two offices, 40 staff and a testing laboratory.</p>
+                                <p class="our_team_modal_p">Matt received a Bachelor of Applied Science in Geological Engineering in 1990 from the University of British Columbia. While working as a geotechnical engineer for ConeTec, Matt received his Master of Applied Science in Civil Engineering in 1992. Matt is a professional engineer and is registered in British Columbia, Alberta, and Ontario. He is also a member of the Vancouver Geotechnical Society, Deep Foundations Institute, and International Society for Micropiles.</p>
+                                <p class="our_team_modal_p">With close to 5000 projects under his direction, Matt has a wealth of management and geotechnical engineering experience across the Lower Mainland, BC, Alberta, Ontario, Washington, and California.  Some of his most notable projects include the deepest excavation in Vancouver history The Shangri-La, The Wall Centre, The Canada Line shoring design and 2010 Olympic Village. GeoPacific has also been involved in the design for the temporary shoring for the Sea to Sky Highway, Port Mann Bridge, and most recently the South Fraser Perimeter Road.  Matt has been involved in numerous building restoration projects, particularly the Downtown Vancouver core.</p>
+                                <p class="our_team_modal_p">Matt has had extensive experience in a number of geotechnical engineering areas. His projects have included analysis and design for commercial, residential, industrial and infrastructure projects. Matt has significant expertise in infrastructure works, designs of pile supported buildings on soft ground, excavation and shoring system designs, offshore structure foundation design and evaluation, arenas, slope stability, environmental project assistance, and offshore drilling and testing. His expertise in pile loading and jet grouting has been widely recognized both nationally and internationally through paper presentations.</p>
+                            </div>
+                            <!-- End Demo modal window -->
                         </div>                         
                     </div>                     
                 </div>                 
@@ -276,7 +342,10 @@
         <script src="assets/js/components/hs.tabs.js"></script>         
         <script src="assets/js/components/hs.cubeportfolio.js"></script>         
         <script src="assets/js/components/hs.carousel.js"></script>         
-        <script src="assets/js/components/hs.go-to.js"></script>         
+        <script src="assets/js/components/hs.go-to.js"></script>
+        <script src="assets/js/components/hs.modal-window.js"></script>
+        <!-- JS Implementing Plugins -->
+        <script src="assets/vendor/custombox/custombox.min.js"></script>
         <!-- JS Master Slider -->         
         <script src="assets/vendor/master-slider/source/assets/js/masterslider.min.js"></script>         
         <!-- JS Customization -->         
@@ -286,6 +355,7 @@
       $(document).on('ready', function () {
         // initialization of carousel
         $.HSCore.components.HSCarousel.init('.js-carousel');
+        $.HSCore.components.HSModalWindow.init('[data-modal-target]');
 
         $('#we-provide').slick('setOption', 'responsive', [{
           breakpoint: 992,

@@ -36755,7 +36755,7 @@ pre[class*="language-"] .toolbar-item a {
     }
 
     .g-mb-15 {
-        margin-bottom: 1.07143rem;
+        margin-bottom: 1.07143rem !important;
     }
 
     .g-mb-minus-15 {
