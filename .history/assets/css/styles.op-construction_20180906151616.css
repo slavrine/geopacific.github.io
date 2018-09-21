@@ -2836,6 +2836,10 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 /* Button Types
 ------------------------------------*/
 /* Inset Buttons */
+.u-btn-inset {
+    position: relative;
+}
+
 .u-btn-inset::before {
     position: absolute;
     top: 0.14286rem;
@@ -3728,6 +3732,11 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
 }
 
 /* Button Blue */
+.u-btn-blue {
+    color: #fff;
+    background-color: #3398dc;
+}
+
 .u-btn-blue:hover,
 .u-btn-blue.active {
     border-color: #5faee3;
@@ -51035,7 +51044,6 @@ a:focus {
     font-weight: 700;
     font-size: 0.78571rem;
     text-transform: uppercase;
-
     /* background-color: #111; */
     padding: 1.57143rem 2.14286rem;
     border: none;
