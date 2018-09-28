@@ -324,3 +324,7 @@ a.btn .btn-md .g-mr-10 .g-mb-15 .u_btn_outline_white:hover {
 .pgeos_our_team_bg {
     background-image: url('../img/our_team_page/rocks.jpg');
 }
+
+#regions_div2{
+    margin:auto;
+}
