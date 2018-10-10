@@ -1,0 +1,440 @@
+/* Add here all your css styles (customizations) */
+.grid_row_height {
+    height: 506px;
+}
+
+.msp-cn-169-1 {
+    background-color: #ededed;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.msp-cn-169-5 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-169-6 {
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-right: 25px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: normal;
+    color: #333333;
+}
+
+.msp-cn-169-14 {
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-right: 25px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: normal;
+    color: #333333;
+}
+
+.msp-cn-169-15 {
+    background-color: #ededed;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.msp-cn-169-19 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-169-20 {
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-right: 25px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: normal;
+    color: #333333;
+}
+
+.msp-cn-169-21 {
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-right: 25px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: normal;
+    color: #333333;
+}
+
+.msp-cn-169-22 {
+    background-color: #ededed;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.msp-cn-169-26 {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: normal;
+    white-space: nowrap;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.msp-cn-169-27 {
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-right: 25px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: normal;
+    color: #333333;
+}
+
+.msp-cn-169-28 {
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-right: 25px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: normal;
+    color: #333333;
+}
+
+.msp-cn-169-29 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+    color: #333333;
+}
+
+.msp-cn-169-30 {
+    background-color: #0077B5;
+    font-weight: normal;
+    line-height: normal;
+    white-space: nowrap;
+    border-radius: 100%;
+}
+
+.ms-skin-minimal .ms-time-bar {
+    border-top: none !important;
+}
+
+.slider_height {
+    height: 50vh;
+}
+
+.grid_flexparent {
+    margin: 10px;
+}
+
+.grid_blue_bkg {
+    background-color: #0077B5;
+}
+
+.g-absolute_bottom {
+    position: absolute !important;
+    top: 75% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-backface-visibility: hidden;
+}
+
+.height100p {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.geophysics_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/geophysics_page/hero.jpg');
+}
+
+.geophysics_hero_h2 {
+    color: #efefef;
+    margin: 30px;
+    font-size: 2.5em;
+}
+
+.geophysics_page_diagram_size {
+    width: 250;
+}
+
+.our_team_modal_p {
+    font-size: 01rem;
+}
+
+.our_team_hero_tilte_bck {
+    background-color: rgba(0, 119, 181,0.7);
+}
+
+.our_team_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/our_team_page/hero.jpg');
+}
+
+.project_one_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/project_one_page/hero.JPG');
+}
+
+.job_description_one_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/job_description_one/hero.jpg');
+}
+
+.get_a_quote_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-image: url('../img/get_a_quote/hero.jpg');
+}
+
+.our_team_js_slide {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_white_text {
+    color: #efefef;
+}
+
+.u_btn_outline_white {
+    color: #efefef;
+    border-color: #efefef;
+    background-color: transparent;
+}
+
+a.btn .btn-md .g-mr-10 .g-mb-15 .u_btn_outline_white:hover {
+    color: #efefef;
+    border-color: #efefef;
+    background-color: transparent;
+}
+
+.tilte_container {
+    margin: 4em 4em 4em 4em;
+}
+
+#us.us_h4_topmargin {
+    margin-top: 4em !important;
+}
+
+.maps_style {
+    width: 50%;
+    height: 30%;
+}
+
+#canada.canada_h4_margin {
+    margin-bottom: 4em !important;
+}
+
+.services_container {
+    height: 42vh;
+}
+
+.contact_font {
+}
+
+.padding_our_team {
+    padding: 10rem 6rem;
+    background-color: white;
+}
+
+.g-mb-30.g-mb-0--md.d-flex.justify-content-center.align-items-center.col-md-4 .right_our_team {
+    display: none;
+}
+
+.our_team_button {
+    width: 150px;
+}
+
+.padding_our_team_button {
+    margin: 0.5em;
+}
+
+.margin_our_team_pgeos {
+    margin: 6em;
+}
+
+.font_size_our_team_pgeos {
+    font-size: 3em;
+}
+
+.pengs_our_team_bg {
+    background-image: url('../img/our_team_page/engineers.jpg');
+}
+
+.pgeos_our_team_bg {
+    background-image: url('../img/our_team_page/rocks.jpg');
+}
+
+.site_inv_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/site_inv_page/site_inv.jpg');
+}
+
+.eng_services_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/eng_services_page/eng_services.jpg');
+}
+
+.foundation_design_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/foundation_deisgn_page/buildings.jpg');
+}
+
+.excavation_shoring_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/excavation_shoring/shoring_small.jpg');
+}
+
+.infrastructure {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/infrastructure_page/infrastructure_canada_line_small.JPG');
+}
+
+.earth_structures_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/earth_structures/earthstructures_small.JPG');
+}
+
+.remote_montoring {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/remote_monitoring_page/remote_monitoring_small.jpg');
+}
+
+.techincal_advice_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/technical_advice_page/technical_advice_small.jpg');
+}
+
+.our_team_button_font_size {
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech_advice_flex_button {
+    display: flex;
+    flex-flow: row nowrpa;
+    justify-content: center;
+    align-items: center;
+}
+
+.hazard_assesment_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/hazard_assesment_page/hazard_assesment_small.jpg');
+}
+
+.eng_support_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/eng_support/technical_litigation_small.jpg');
+}
+
+.materials_testing {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/material_testing_page/materialtesting_small.JPG');
+}

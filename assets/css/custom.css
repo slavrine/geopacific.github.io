@@ -324,3 +324,135 @@ a.btn .btn-md .g-mr-10 .g-mb-15 .u_btn_outline_white:hover {
 .pgeos_our_team_bg {
     background-image: url('../img/our_team_page/rocks.jpg');
 }
+
+.site_inv_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/site_inv_page/site_inv.jpg');
+}
+
+.eng_services_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/eng_services_page/eng_services.jpg');
+}
+
+.foundation_design_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/foundation_deisgn_page/buildings.jpg');
+}
+
+.excavation_shoring_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/excavation_shoring/shoring_small.jpg');
+}
+
+.earth_structures_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/earth_structures/earthstructures_small.JPG');
+}
+
+.remote_montoring {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/remote_monitoring_page/remote_monitoring_small.jpg');
+}
+
+.techincal_advice_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/technical_advice_page/technical_advice_small.jpg');
+}
+
+.our_team_button_font_size {
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech_advice_flex_button {
+    display: flex;
+    flex-flow: row nowrpa;
+    justify-content: center;
+    align-items: center;
+}
+
+.hazard_assesment_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/hazard_assesment_page/hazard_assesment_small.jpg');
+}
+
+.eng_support_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/eng_support/technical_litigation_small.jpg');
+}
+
+.materials_testing {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/material_testing_page/materialtesting_small.JPG');
+}
+
+.erosion_sed_control_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/erosion_sed_control_page/erosion_sedcontrol_small.JPG');
+}
+
+.infrastructure_page {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/infrastructure_page/infrastructure_canada_line_small.JPG');
+}
+
+.hydrogeology_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/hydrogeology_page/hydrogeology_small.jpg');
+}

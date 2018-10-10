@@ -1,0 +1,1132 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <!-- Title -->         
+        <title>Construction | Unify - Responsive Website Template</title>         
+        <!-- Required Meta Tags Always Come First -->         
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <meta http-equiv="x-ua-compatible" content="ie=edge"> 
+        <!-- Favicon -->         
+        <link rel="shortcut icon" href="favicon.ico"> 
+        <!-- Google Fonts -->         
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ek+Mukta%3A400%2C600%2C700%7CNiconne%7COpen+Sans%3A300%2C400%2C600%2C700%2C800%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik"> 
+        <!-- CSS Global Compulsory -->         
+        <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css"> 
+        <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css"> 
+        <!-- CSS Implementing Plugins -->         
+        <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="assets/vendor/icon-hs/style.css"> 
+        <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css"> 
+        <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css"> 
+        <link rel="stylesheet" href="assets/vendor/wait-animate.min.css"> 
+        <link rel="stylesheet" href="assets/vendor/animate.css"> 
+        <link rel="stylesheet" href="assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css"> 
+        <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css"> 
+        <!-- CSS Template -->         
+        <link rel="stylesheet" href="assets/css/styles.op-construction.css"> 
+        <link rel="stylesheet" href="assets/vendor/master-slider/source/assets/css/masterslider.main.css"> 
+        <link rel="stylesheet" href="assets/css/offroad_style.css"> 
+        <!-- CSS Customization -->         
+        <link href="assets/css/unify-components.css" rel="stylesheet" type="text/css"> 
+        <!--Google charts-->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+        // Note: you will need to get a mapsApiKey for your project.
+        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+        'mapsApiKey':'AIzaSyDuwm3Porulcjrk4fRLh3vc6ZzCRLQ1e3U'
+        //        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+
+          ['State', 'Number of projects'],
+          ['US-MT', 200],
+          ['US-WA', 500],
+          ['CA-AB',300],
+          ['CA-BC',400],
+          ['CA-ON',100]
+
+
+        ]);
+
+        var options = {     };
+        options['region'] = 'US';
+        options['resolution']='provinces';
+        options['colors'] = ['blue'];
+   
+     
+
+
+        var chart1 = new google.visualization.GeoChart(document.getElementById('regions_div1'));
+
+        chart1.draw(data, options);
+        //options['region'] = 'CA';
+
+        //var chart = new google.visualization.GeoChart(document.getElementById('regions_div2'));
+
+        //chart.draw(data, options);
+      }
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['State', 'Number of projects'],
+          ['US-MT', 200],
+          ['US-WA', 500],
+          ['CA-AB',300],
+          ['CA-BC',400],
+          ['CA-ON',100]
+
+
+        ]);
+
+        var options = {     };
+        options['region'] = 'US';
+        options['resolution']='provinces';
+        options['colors'] = ['blue'];
+   
+     
+
+
+        var chart1 = new google.visualization.GeoChart(document.getElementById('regions_div1'));
+
+        chart1.draw(data, options);
+        options['region'] = 'CA';
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div2'));
+
+        chart.draw(data, options);
+      }
+
+    </script>
+        <link rel="stylesheet" href="assets/css/custom.css">
+    </head>     
+    <body> 
+        <main class="g-pt-75 g-pt-90--md"> 
+            <!-- Header -->             
+            <header id="js-header" class="u-header u-header--sticky-top u-header--change-appearance g-z-index-9999" data-header-fix-moment="100"> 
+                <div class="u-header__section g-bg-white g-transition-0_3 g-py-12 g-py-20--md" data-header-fix-moment-exclude="g-py-20--md" data-header-fix-moment-classes="u-shadow-v27 g-py-15--md"> 
+                    <nav class="navbar navbar-expand-lg g-py-0"> 
+                        <div class="container g-pos-rel"> 
+                            <!-- Logo -->                             
+                            <a href="index.html" class="js-go-to navbar-brand u-header__logo" data-type="static"> 
+                                <img class="u-header__logo-img u-header__logo-img--main g-width-140" src="img/logo.jpg" alt="Image description"> 
+                            </a>                             
+                            <!-- End Logo -->                             
+                            <!-- Navigation -->                             
+                            <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar"> 
+                                <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-font-weight-700 g-font-size-12 g-pt-20 g-pt-5--lg ml-auto"> 
+                                    <li class="nav-item g-mr-8--lg g-mb-7 g-mb-0--lg active"> 
+                                        <a href="index.html" class="nav-link p-0">HOME <span class="sr-only">(current)</span></a> 
+                                    </li>                                     
+                                    <li class="nav-item g-mx-8--lg g-mb-7 g-mb-0--lg"> 
+                                        <a href="#about" class="nav-link p-0">About</a> 
+                                    </li>
+                                    <li class="nav-item g-mx-8--lg g-mb-7 g-mb-0--lg"> 
+                                        <a href="our_team.html" class="nav-link p-0">Our Team</a> 
+                                    </li>                                     
+                                    <li class="nav-item g-mx-8--lg g-mb-7 g-mb-0--lg"> 
+                                        <a href="#services" class="nav-link p-0">Services</a> 
+                                    </li>                                     
+                                    <li class="nav-item g-mx-8--lg g-mb-7 g-mb-0--lg"> 
+                                        <a href="#recent_projects" class="nav-link p-0">Recent projects</a> 
+                                    </li>                                     
+                                    <li class="nav-item g-mx-8--lg g-mb-7 g-mb-0--lg"> 
+                                        <a href="#projects_showcase" class="nav-link p-0">Project Showcase</a> 
+                                    </li>                                     
+                                    <li class="nav-item g-mx-8--lg g-mb-7 g-mb-0--lg"> 
+                                        <a href="#careers" class="nav-link p-0">Careers</a> 
+                                    </li>                                     
+                                    <li class="nav-item g-ml-8--lg"> 
+                                        <a href="#contact" class="nav-link p-0">Contact</a> 
+                                    </li>                                     
+                                </ul>                                 
+                            </div>                             
+                            <!-- End Navigation -->                             
+                            <!-- Responsive Toggle Button -->                             
+                            <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-15 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar"> 
+                                <span class="hamburger hamburger--slider"> <span class="hamburger-box"> <span class="hamburger-inner"></span> </span> </span> 
+                            </button>                             
+                            <!-- End Responsive Toggle Button -->                             
+                        </div>                         
+                    </nav>                     
+                </div>                 
+            </header>             
+            <div id="masterslider" class="master-slider ms-skin-default"> 
+                <div class="ms-overlay-layers"> 
+                    <img class="ms-layer" src="assets/img/blank.gif" data-src="img/slider/slide1.jpg" alt="" style="" data-ease="easeOutQuint" data-type="image" data-wait="true" data-offset-x="0" data-offset-y="0" data-origin="tl" data-position="normal"/> 
+                    <div class="ms-layer msp-cn-165-11" style="" data-ease="easeOutQuint" data-offset-x="100" data-offset-y="615" data-origin="tl" data-position="normal">01
+</div>                     
+                    <div class="ms-layer msp-cn-165-13" data-ease="easeOutQuint" data-offset-x="100" data-offset-y="665" data-origin="tl" data-position="normal">BUILDING
+                        <br/>THE FOUNDATION
+                        <br/>FOR TOMORROW
+                    </div>                     
+                    <div class="ms-layer msp-cn-165-30" style="width:90px;height:2px;" data-ease="easeOutQuint" data-offset-x="100" data-offset-y="650" data-origin="tl" data-position="normal"></div>                     
+                    <div class="ms-layer msp-cn-165-12" style="width:90px;height:2px;" data-ease="easeOutQuint" data-offset-x="100" data-offset-y="650" data-origin="tl" data-position="normal" data-show-on="slide1"></div>                     
+                    <div class="ms-layer msp-cn-165-14" style="" data-ease="easeOutQuint" data-offset-x="210" data-offset-y="615" data-origin="tl" data-position="normal">02
+</div>                     
+                    <div class="ms-layer msp-cn-165-15" style="width:90px;height:2px;" data-ease="easeOutQuint" data-offset-x="210" data-offset-y="650" data-origin="tl" data-position="normal"></div>                     
+                    <div class="ms-layer msp-cn-165-29" style="width:90px;height:2px;" data-ease="easeOutQuint" data-offset-x="210" data-offset-y="650" data-origin="tl" data-position="normal" data-show-on="slide2"></div>                     
+                    <div class="ms-layer msp-cn-165-16" data-ease="easeOutQuint" data-offset-x="210" data-offset-y="665" data-origin="tl" data-position="normal">GEOTECHNICAL
+                        <br/>& ENGINEERING
+                        <br/>& SERVICES
+                    </div>                     
+                    <div class="ms-layer msp-cn-165-7" style="" data-ease="easeOutQuint" data-offset-x="320" data-offset-y="615" data-origin="tl" data-position="normal">03
+</div>                     
+                    <div class="ms-layer msp-cn-165-9" style="width:90px;height:2px;" data-ease="easeOutQuint" data-offset-x="320" data-offset-y="650" data-origin="tl" data-position="normal"></div>                     
+                    <div class="ms-layer msp-cn-165-31" style="width:90px;height:2px;" data-ease="easeOutQuint" data-offset-x="320" data-offset-y="650" data-origin="tl" data-position="normal" data-show-on="slide3"></div>                     
+                    <div class="ms-layer msp-cn-165-10" data-ease="easeOutQuint" data-offset-x="320" data-offset-y="665" data-origin="tl" data-position="normal">33 YEARS
+                        <br/>OF PROJECTS
+                        <br/>LARGE AND SMALL
+                    </div>                     
+                    <div class="ms-layer" style="width:92px;height:84px;" data-ease="easeOutQuint" data-action="gotoSlide(2)" data-offset-x="319" data-offset-y="616" data-origin="tl" data-position="normal"></div>                     
+                    <div class="ms-layer" style="width:92px;height:84px;" data-ease="easeOutQuint" data-action="gotoSlide(1)" data-offset-x="209" data-offset-y="616" data-origin="tl" data-position="normal"></div>                     
+                    <div class="ms-layer" style="width:92px;height:84px;" data-ease="easeOutQuint" data-action="gotoSlide(0)" data-offset-x="99" data-offset-y="616" data-origin="tl" data-position="normal"></div>                     
+                </div>                 
+                <div class="ms-slide" data-delay="5" data-fill-mode="fill" data-id="slide1"> 
+                    <img src="assets/img/blank.gif" alt="" title="offroad-bg-slide1" data-src="img/slider/slide1.jpg"/> 
+                    <!-- <div class="ms-layer msp-cn-165-25" data-effect="t(true,n,-90,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="200" data-ease="easeOutQuint" data-offset-x="100" data-offset-y="143" data-origin="tl" data-position="normal">December 15</div>                      -->
+                    <div class="ms-layer msp-cn-165-26" data-effect="t(true,100,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="800" data-ease="easeOutQuint" data-offset-x="97" data-offset-y="197" data-origin="tl" data-position="normal">Building</div>                     
+                    <div class="ms-layer msp-cn-165-28" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1200" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="300" data-origin="tl" data-position="normal"> 
+                        <span style="font-weight: light !important;">The foundation</span> 
+                    </div>                     
+                    <div class="ms-layer msp-cn-165-27 slider_small_text" data-effect="t(true,220,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1600" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="404" data-origin="tl" data-position="normal">Of the FUTURE</div>                     
+                </div>                 
+                <div class="ms-slide" data-delay="5" data-fill-mode="fill" data-id="slide2"> 
+                    <img src="assets/img/blank.gif" alt="" title="offroad-bg-slide1" data-src="img/slider/slide2.jpg"/> 
+                    <!-- <div class="ms-layer msp-cn-165-17" data-effect="t(true,n,-90,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="200" data-ease="easeOutQuint" data-offset-x="100" data-offset-y="143" data-origin="tl" data-position="normal">August 18</div>                      -->
+                    <div class="ms-layer msp-cn-165-18" data-effect="t(true,100,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="800" data-ease="easeOutQuint" data-offset-x="97" data-offset-y="197" data-origin="tl" data-position="normal">GEOTECHNICAL</div>                     
+                    <div class="ms-layer msp-cn-165-20 slider_small_text" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1200" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="300" data-origin="tl" data-position="normal">&amp;</div>                     
+                    <div class="ms-layer msp-cn-165-20 slider_small_text" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1300" data-ease="easeOutQuint" data-offset-x="176" data-offset-y="300" data-origin="tl" data-position="normal">ENGINEERING</div>                     
+                    <div class="ms-layer msp-cn-165-19 slider_small_text" data-effect="t(true,220,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1600" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="404" data-origin="tl" data-position="normal">Services</div>                     
+                </div>                 
+                <div class="ms-slide" data-delay="5" data-fill-mode="fill" data-id="slide3"> 
+                    <img src="assets/img/blank.gif" alt="" title="offroad-bg-slide1" data-src="img/slider/slide3.jpg"/> 
+                    <!-- <div class="ms-layer msp-cn-165-21" data-effect="t(true,n,-90,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="200" data-ease="easeOutQuint" data-offset-x="100" data-offset-y="143" data-origin="tl" data-position="normal">May 20</div>                      -->
+                    <div class="ms-layer msp-cn-165-22" data-effect="t(true,100,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="800" data-ease="easeOutQuint" data-offset-x="97" data-offset-y="197" data-origin="tl" data-position="normal">33 YEARS</div>                     
+                    <div class="ms-layer msp-cn-165-24 slider_small_text" data-effect="t(true,180,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1200" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="300" data-origin="tl" data-position="normal">Of projects</div>                     
+                    <div class="ms-layer msp-cn-165-23" data-effect="t(true,220,n,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="2000" data-delay="1600" data-ease="easeOutQuint" data-offset-x="96" data-offset-y="404" data-origin="tl" data-position="normal">LARGE and SMALL</div>                     
+                </div>                 
+            </div>             
+            <!-- End Header -->             
+            <!-- Section Content -->             
+            <section id="home"> 
+</section>             
+            <!-- End Section Content -->             
+            <!-- Section Content -->             
+            <section id="quote"> 
+</section>             
+            <!-- End Section Content -->             
+            <!-- Section Content -->             
+            <section id="about" class="g-py-80"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-md-5 g-mb-30 g-mb-0--md"> 
+                            <img class="img-fluid g-mb-30" src="img/servingsince/servingsince_small.JPG" alt="Image description"> 
+                            <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-black g-mb-10">servicing YOU since 1985</h3> 
+                            <p class="mb-0">16000+ Projects under our belt</p> 
+                            <p class="mb-0">Serving Vancouver, Calgary, Kamloops and Squamish</p> 
+                            <p class="mb-0">All your services done in-house</p> 
+                        </div>                         
+                        <div class="col-md-7"> 
+                            <div id="aboutAccordion" role="tablist" aria-multiselectable="true"> 
+                                <div class="card g-brd-none"> 
+                                    <div id="aboutAccordionHeading1" class="card-header u-accordion__header g-bg-transparent g-brd-none rounded-0 p-0" role="tab"> 
+                                        <a class="d-block text-uppercase g-pos-rel g-font-weight-700 g-font-size-12 g-brd-bottom g-brd-2 g-py-15" href="#aboutAccordionBody1" aria-expanded="true" aria-controls="aboutAccordionBody1" data-toggle="collapse" data-parent="#aboutAccordion"><span class="u-icon-v1 g-mr-15 g-mb-15 icon_color"> <i class="icon-education-083 u-line-icon-pro"></i></span>About us&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class="u-accordion__control-icon g-absolute-centered--y g-right-0 g-color-primary"> <i class="fa fa-arrow-right"></i> <i class="fa fa-arrow-down"></i> </span></a> 
+                                    </div>                                     
+                                    <div id="aboutAccordionBody1" class="collapse show" role="tabpanel" aria-labelledby="aboutAccordionHeading1"> 
+                                        <div class="card-block u-accordion__body g-py-20 px-0"> 
+                                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0"><b>We specialize in creative and cost effective geotechnical solutions.</b><br/>Our engineering services include geotechnical site investigations, seismic site classification, excavation and shoring design, foundations, hydrogeology, earth structures, hazard assessments, and construction monitoring.     <br/>We provide technical services including: Materials testing of soils, aggregate, and asphalt, geophysical surveys and utility location, and Erosion and Sediment Control (ESC) design and monitoring.</p> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                                <div class="card g-brd-none"> 
+                                    <div id="aboutAccordionHeading2" class="card-header u-accordion__header g-bg-transparent g-brd-none rounded-0 p-0" role="tab"> 
+                                        <a class="d-block text-uppercase g-pos-rel g-font-weight-700 g-font-size-12 g-brd-bottom g-brd-2 g-py-15 collapsed" href="#aboutAccordionBody2" aria-expanded="false" aria-controls="aboutAccordionBody2" data-toggle="collapse" data-parent="#aboutAccordion"> <span class="u-icon-v1 g-mr-15 g-mb-15 icon_color"> <i class="icon-finance-146 u-line-icon-pro icon_color"></i></span> 
+                      Our history <span class="u-accordion__control-icon g-absolute-centered--y g-right-0 g-color-primary"> <i class="fa fa-arrow-right"></i> <i class="fa fa-arrow-down"></i> </span> </a> 
+                                    </div>                                     
+                                    <div id="aboutAccordionBody2" class="collapse" role="tabpanel" aria-labelledby="aboutAccordionHeading2"> 
+                                        <div class="card-block u-accordion__body g-py-20 px-0"> 
+                                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">Geopacific Consulting has started as a small company in 1985. We have experienced rapid expansion ever since. Currently, we operate in Vancouver, Squamish, Kamploops and Calgary. Our growth was fueled by creative and effective geotechnical services we provide and rests on the reputation we have built.</p>
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                                <div class="card g-brd-none"> 
+                                    <div id="aboutAccordionHeading3" class="card-header u-accordion__header g-bg-transparent g-brd-none rounded-0 p-0" role="tab"> 
+</div>                                     
+                                    <div id="aboutAccordionBody3" class="collapse" role="tabpanel" aria-labelledby="aboutAccordionHeading3"> 
+</div>                                     
+                                </div>                                 
+                                <div class="card g-brd-none"> 
+                                    <div id="aboutAccordionHeading4" class="card-header u-accordion__header g-bg-transparent g-brd-none rounded-0 p-0" role="tab"> 
+                                        <a class="d-block text-uppercase g-pos-rel g-font-weight-700 g-font-size-12 g-brd-bottom g-brd-2 g-py-15 collapsed" href="#aboutAccordionBody4" aria-expanded="false" aria-controls="aboutAccordionBody4" data-toggle="collapse" data-parent="#aboutAccordion"><span class="u-icon-v1 g-mr-15 g-mb-15 icon_color"> <i class="icon-finance-188 u-line-icon-pro icon_color"></i></span>Careers<span class="u-accordion__control-icon g-absolute-centered--y g-right-0 g-color-primary"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-down"></i></span></a> 
+                                    </div>                                     
+                                    <div id="aboutAccordionBody4" class="collapse" role="tabpanel" aria-labelledby="aboutAccordionHeading4"> 
+                                        <div class="card-block u-accordion__body g-py-20 px-0"> 
+                                            <p class="g-font-size-default g-theme-color-gray-light-v2 mb-0">GeoPacific is always looking for bright, hardworking, and driven professionals to add to our team. If this describes you we would be happy to receive your resume and cover letter at <a href="mailto:careers@geopacific.ca ">careers@geopacific.ca</a>. Specific roles can be found <a href="#careers">here</a></p> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>
+            <section id="our_team" class="g-bg-img-hero  g-py-80" style="background-image: url('img/testimonials/logos_background_small.jpg');"> 
+                <div class="text-uppercase text-center u-heading-v2-4--bottom g-brd-white g-mb-60 header_white_text d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="g-font-weight-700 g-font-size-12 g-color-white g-mb-15">meet our folks</h4>
+                    <a href="our_team.html" class="btn btn-md u-btn-skew u-btn-outline-white g-brd-6 g-mr-10 g-mb-15"> <span class="u-btn-skew__inner">our team</span></a>
+                    <a class="btn btn-lg u-btn-inset mx-2 our_team_button_font_size u-btn-bluegray" href="site_invesigation.html"> <i class="fa g-color-primary mr-2 fa-handshake-o fa-2x g-color-white-opacity-0_7"></i> 
+                  OUR TEAM </a>
+                </div>
+                <div class="container u-bg-overlay__inner text-center"> 
+                    <div class="js-carousel" data-autoplay="true" data-infinite="true" data-slides-show="6" data-responsive='[{
+                 "breakpoint": 1200,
+                 "settings": {
+                   "slidesToShow": 6
+                 }
+               }, {
+                 "breakpoint": 992,
+                 "settings": {
+                   "slidesToShow": 4
+                 }
+               }, {
+                 "breakpoint": 768,
+                 "settings": {
+                   "slidesToShow": 2
+                 }
+               }, {
+                 "breakpoint": 576,
+                 "settings": {
+                   "slidesToShow": 1
+                 }
+               }]'> 
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/matt_kokan.jpg" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#matt_kokan"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>MATT KOKAN</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/kevin_bodnar.jpg" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#kevin_bodnar"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>KEVIN BODNAR</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/matt_kokan.jpg" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#gillian_williams"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>GILLIAN WILLIAMS</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/mohammad_deriszadeh.JPG" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#mohammad_deriszadeh"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>M. DERISZADEH</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" alt="Image description" src="img/our_team/matt_kokan.jpg">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#farshid_bateni"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Farshid Bateni</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" alt="Image description" src="img/our_team/matt_kokan.jpg">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#marian_letavay"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>M. Letavay</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/bryon_richardson.JPG" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#bryon_richardson"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>B. RICHARDSON</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/matt_kokan.jpg" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#kazunori_fujita"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>K. FUJITA</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/matt_kokan.jpg" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#roberto_avendano"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>R. AVENDANO</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/matt_kokan.jpg" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#erin_kempin"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>ERIN KEMPIN</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/matt_kokan.jpg" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#steve_hasegawa"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>STEVE HASEGAWA</a>
+                            </div>                             
+                        </div>
+                        <div class="js-slide g-mx-15"> 
+                            <div class="our_team_js_slide">
+                                <img class="mx-auto g-width-120" src="img/our_team/matt_kokan.jpg" alt="Image description">
+                                <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2 our_team_button" href="our_team.html#mehwish_rahman"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Mehwish Rahman</a>
+                            </div>                             
+                        </div>
+                    </div>                     
+                </div>                 
+            </section>
+            <section>
+</section>
+            <section id="services">
+                <div class="container " style="top: 0px;
+    margin-top: 64px;"> 
+                    <div class="text-uppercase text-center u-heading-v2-4--bottom g-brd-primary g-mb-60 "> 
+                        <h4 class="g-font-weight-700 g-font-size-12 g-color-primary g-mb-15">what we do best</h4> 
+                        <h2 class="u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-color-black g-mb-minus-10">services</h2> 
+                    </div>                     
+                </div>
+                <section class="container-fluid px-0" id="services"> 
+                    <div class="row no-gutters"> 
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/site_inv_small.jpg');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/site_inv_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">SITE INVESTIGATION</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We conduct site investigation for our clients to determine subsurface soil and groundwater conditions</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="site_invesigation.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i> 
+                  Read more </a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/eng_services_small.jpg');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/eng_services_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">ENGINEERING SERVICES</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We provide engineering solutions for the development of structures in all types of ground conditions</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="eng_services.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <div class="row no-gutters"> 
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/buildings_small.jpg');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/buildings_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">FOUNDATION DESIGN</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We provide foundation design services for all building categories</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="foundation_design.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/shoring_small.jpg');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/shoring_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">Excavation and Shoring</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We specialize in the design of tie back shoring systems including shotcrete, sheet pile, soldier pile and jet grout walls</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="excavation_shoring.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <div class="row no-gutters"> 
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/infrastructure_canada_line_small.JPG');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/infrastructure_canada_line_small.JPG" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">Infrastructure</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We provide services in route selection, road design, playing fields and temporary structures</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="infrastructure.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/earthstructures_small.JPG');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/earthstructures_small.JPG" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">Earth Structures</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We are well versed in in many different temporary and permanent retaining wall structures</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="earth_structures.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>
+                    <div class="row no-gutters"> 
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/remote_monitoring_small.jpg');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/remote_monitoring_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">Remote Monitoring</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We can monitor tilt, vibration, acoustic noise and motion to an extreme precision- helping you stay safe and within the bylaw.</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="remote_monitoring.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/technical_advice_small.jpg');">
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/technical_advice_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">TECHNICAL ADVICE</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">Help with bids and technical presentations.&nbsp;</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="technical_advice.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <div class="row no-gutters"> 
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/hazard_assesment_small.jpg');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/hazard_assesment_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">Hazard Assessment</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">Slope stability evaluations and risk assessment for land development and route selection</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="hazard_assessment.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/technical_litigation_small.jpg');">
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/technical_litigation_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">EnGINEERING Support</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">Expertise in insurance and litigation processes</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="eng_support.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <div class="row no-gutters"> 
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/materialtesting_small.JPG');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/materialtesting_small.JPG" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">MATERIALS TESTING</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We provide testing services both in the field and in-lab for soils, aggregate, and asphalt</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="materials_testing.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/erosion_sedcontrol_small.JPG');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/erosion_sedcontrol_small.JPG" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">EROSION AND SEDIMENT CONTROL</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We help mitigate the affects of construction on discharging eroded soil into our waterways</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="erosion_sediment_control.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                    <div class="row no-gutters"> 
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/geophysics_utility_small.jpg');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/geophysics_utility_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">GEOPHYSICS AND UTILITY LOCATING</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We can detrmine bedrock depth, soil stratigraphy, void dimensions, and locate underground utilities</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="geophysics.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-6"> 
+                            <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden" style="background-image: url('img/services/hydrogeology_small.jpg');"> 
+                                <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in" src="img/services/hydrogeology_small.jpg" alt="Image description"> 
+                                <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x"> 
+                                    <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">HYDROGEOLOGY</h3> 
+                                    <p class="g-color-white-opacity-0_7 g-mb-30">We help mitigate the impacts on existing aquifers and minimize the discharge to municipal infrastructure</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" href="hydrogeology.html"> <i class="fa fa-arrow-right g-color-primary mr-2"></i>Read more</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </section>
+            </section>             
+            <!-- End Section Content -->             
+            <!-- Section Content -->             
+            <!-- End Section Content -->             
+            <!-- Section Content -->             
+            <!-- End Section Content -->             
+            <!-- Section Content -->             
+            <section id="recent_projects" class="u-bg-overlay g-bg-img-hero g-py-100 g-bg-primary-opacity-0_8--after" style="background-image: url('img/projects_in_progress/background/background.jpg');"> 
+                <div class="container u-bg-overlay__inner"> 
+                    <div class="text-uppercase text-center u-heading-v2-4--bottom g-brd-white g-mb-60"> 
+                        <h4 class="g-font-weight-700 g-font-size-12 g-color-white g-mb-15">Recent projects</h4> 
+                        <h2 class="u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-color-white g-mb-minus-10">Projects in progress</h2> 
+                    </div>                     
+                    <div class="row"> 
+                        <div class="col-md-4 g-mb-20 g-mb-0--md">
+                            <div class="u-heading-v8-1 g-mb-20"> 
+                                <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Remote Monitoring</strong> <br> YVR - Canada Line</h2> 
+                            </div>                             
+                            <img class="img-fluid g-mb-20" src="img/projects_in_progress/yvr.JPG" alt="Image description"> 
+                            <p class="g-line-height-1_8 g-font-size-default g-color-white-opacity-0_8 g-mb-40">Geopacific is monitoring the structure stability at the Vancouver International Airport, Canada Line station </p> 
+                            <a class="btn btn-lg u-btn-darkgray u-btn-inset" href="#!"> <i class="fa fa-arrow-right g-color-primary mr-2"></i> 
+                View project </a>
+                        </div>                         
+                        <div class="col-md-4 g-mb-20 g-mb-0--md"> 
+                            <div class="u-heading-v8-1 g-mb-20"> 
+                                <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Mixed use</strong> <br> Richmond - Brighouse tower</h2> 
+                            </div>                             
+                            <img class="img-fluid g-mb-20" src="img/projects_in_progress/richmond_brighouse.jpg" alt="Image description"> 
+                            <p class="g-line-height-1_8 g-font-size-default g-color-white-opacity-0_8 g-mb-40">We have investigated the soil conditions at the site and deisgned the foundation for a mixed-use tower.</p> 
+                            <a class="btn btn-lg u-btn-darkgray u-btn-inset" href="#!"> <i class="fa fa-arrow-right g-color-primary mr-2"></i> 
+                View project </a> 
+                        </div>                         
+                        <div class="col-md-4"> 
+                            <div class="u-heading-v8-1 g-mb-20"> 
+                                <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Mixed Use</strong> <br> Bosa Tower</h2>
+                            </div>                             
+                            <img class="img-fluid g-mb-20" src="img/projects_in_progress/320granville.jpg" alt="Image description"> 
+                            <p class="g-line-height-1_8 g-font-size-default g-color-white-opacity-0_8 g-mb-40">We have completed a thorough site investigation to ensure foundational stability of this luxurious residential tower.</p> 
+                            <a class="btn btn-lg u-btn-darkgray u-btn-inset" href="#!"> <i class="fa fa-arrow-right g-color-primary mr-2"></i> 
+                View project </a> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <!-- End Section Content -->             
+            <!-- Section Content -->             
+            <!-- End Section Content -->             
+            <section id="projects_showcase" class="g-pt-100"> 
+                <div class="container"> 
+                    <div class="text-uppercase text-center u-heading-v2-4--bottom g-brd-primary g-mb-60"> 
+                        <h4 class="g-font-weight-700 g-font-size-12 g-color-primary g-mb-15">Gallery</h4> 
+                        <h2 class="u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-color-black g-mb-minus-10">PROJECTS Showcase</h2> 
+                    </div>                     
+                </div>                 
+                <div class="g-pos-rel g-overflow-x-hidden g-pr-40 g-pr-0--md g-mb-10 g-mb-0--md"> 
+                    <div class="g-overflow-x-auto g-brd-right g-brd-right-none--md g-brd-primary pb-0" data-scroll> 
+                        <!-- Filter -->                         
+                        <ul id="galleryCubePortfolioFilter" class="nav d-block d-md-flex justify-content-center text-center text-uppercase u-nav-v2-2 g-font-size-12"> 
+                            <li class="cbp-filter-item nav-item d-inline-block cbp-filter-item-active" data-filter="*"> 
+                                <span class="nav-link g-min-width-110--md py-0 g-py-30--md g-px-10">All</span> 
+                            </li>                             
+                            <li class="cbp-filter-item nav-item d-inline-block" data-filter=".hotel"> 
+                                <span class="nav-link g-min-width-110--md py-0 g-py-30--md g-px-10">Hotels</span> 
+                            </li>                             
+                            <li class="cbp-filter-item nav-item d-inline-block" data-filter=".residential"> 
+                                <span class="nav-link g-min-width-110--md py-0 g-py-30--md g-px-10">Residential</span> 
+                            </li>                             
+                            <li class="cbp-filter-item nav-item d-inline-block" data-filter=".office"> 
+                                <span class="nav-link g-min-width-110--md py-0 g-py-30--md g-px-10">Office</span> 
+                            </li>                             
+                            <li class="cbp-filter-item nav-item d-inline-block" data-filter=".mixed"> 
+                                <span class="nav-link g-min-width-110--md py-0 g-py-30--md g-px-10">Mixed Use</span> 
+                            </li>                             
+                            <li class="cbp-filter-item nav-item d-inline-block" data-filter=".infrastructure"> 
+                                <span class="nav-link g-min-width-110--md py-0 g-py-30--md g-px-10">Infrastructure</span> 
+                            </li>
+                            <li class="cbp-filter-item nav-item d-inline-block" data-filter=".retaining_walls"> 
+                                <span class="nav-link g-min-width-110--md py-0 g-py-30--md g-px-10">Retaining Walls</span> 
+                            </li>                             
+                        </ul>                         
+                        <!-- End Filter -->                         
+                    </div>                     
+                    <div class="g-hidden-md-up g-absolute-centered--y g-right-5"> 
+                        <span class="u-icon-v2 g-width-20 g-height-20 g-font-size-16 g-color-primary shake g-brd-none rounded-0 p-0"> <i class="fa fa-hand-pointer-o"></i> </span> 
+                    </div>                     
+                </div>
+                <div id="galleryCubePortfolio" class="cbp" data-controls="#galleryCubePortfolioFilter" data-layout="grid" data-animation="slideLeft" data-caption-animation="fadeIn" data-x-gap="0" data-y-gap="0" data-media-queries='[
+               {"width": 800, "cols": 4},
+               {"width": 500, "cols": 3},
+               {"width": 320, "cols": 1}
+             ]'> 
+                    <div class="cbp-item hotel"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/shangrila_large.jpg" data-title="Shangri- La. Credits: wikipedia"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/shangrila_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Hotel</strong> <br> Shangri- La</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item residential"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/melville_large.jpg" data-title="Melville tower. Credits: wikipedia"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/melville_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Residential</strong> <br> Melville</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item hotel"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/Fairmont_Pacific_Rim_large.jpg" data-title="Pacific Rim. Credits: wikipedia"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/Fairmont_Pacific_Rim_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Hotel</strong> <br> Fairmount Pacific Rim</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item office"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/ubc_pharmacy_large.jpg" data-title="UBC Pharmacy building. Credit: wikipedia"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/ubc_pharmacy_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Office</strong> <br> UBC Pharmacy building </h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item mixed"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/bosa_tower_large.jpg" data-title="Bosa tower. Credits: Thinkbosa.com"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/bosa_tower_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Mixed Use</strong> <br> Bosa Tower</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item residential"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/residences_on_georgia_large.jpg" data-title="Residences on Georgia. Credits: westbankcorp.com"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/residences_on_georgia_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Residential</strong> <br> Residences on Georgia</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item infrastructure"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/port_mann_bridge_large.JPG" data-title="Port Mann Bridge- temporary work. Credits: Wikipedia"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/port_mann_bridge_small.JPG" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Infrustructure</strong> <br> Port Mann Bridge (temporary work)</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item hotels"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/onewall_large.jpg" data-title="One Wall/ Sheraton. Credits: sheratonvancouver.com"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/onewall_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Hotels</strong> <br> One Wall</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item office"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="assets/img-temp/2800x2096/img9.jpg" data-title="Golden Ears commercial. Credits: Onni Group"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img alt="Image description" src="img/ourworks/golden_ears_commercial_small.jpg"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Office</strong> <br> Golden Ears commercial</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item infrastructure"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/westshore_terminals_large.jpg" data-title="West Coast Terminals. Credits: wikimapia"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/westshore_terminals_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Infrastructure</strong> <br>West Coast Terminals</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item infrastructure"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/sea_to_sky_highway_large.jpg" data-title="Sea to sky highway (temporary work). Credits: K. Pearce/ flickr"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/sea_to_sky_highway_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Infrastructure</strong> <br>Sea to sky highway (temporary work)</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>                     
+                    <div class="cbp-item residential"> 
+                        <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent" href="img/ourworks/river_green_oval_large.jpg" data-title="Olympic Oval River Green. Credits: ASPAC communities"> 
+                            <div class="cbp-caption-defaultWrap"> 
+                                <img src="img/ourworks/river_green_oval_small.jpg" alt="Image description"> 
+                            </div>                             
+                            <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9"> 
+                                <div class="cbp-l-caption g-py-20 g-px-30"> 
+                                    <div class="cbp-l-caption-body"> 
+                                        <div class="u-heading-v8-1"> 
+                                            <h2 class="h6 text-uppercase u-heading-v8__title g-font-weight-700 g-color-white mb-0"> <strong class="g-font-size-11 g-color-white-opacity-0_8 p-0 g-mb-7">Residential</strong> <br> Olympic Oval river green</h2> 
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                        </a>                         
+                    </div>
+                </div>                 
+                <!-- Cubeportfolio -->                 
+                <!-- End Cubeportfolio -->                 
+            </section>
+            <section class="d-flex flex-column justify-content-center align-items-center hide_project_locations">
+                <div class="container tilte_container">
+                    <div class="text-uppercase text-center u-heading-v2-4--bottom g-brd-primary g-mb-60"> 
+                        <h4 class="g-font-weight-700 g-font-size-12 g-color-primary g-mb-15">been there, done that</h4> 
+                        <h2 class="u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-color-black g-mb-minus-10">project locations</h2> 
+                    </div>                     
+                </div>
+                <h4 id="canada" class="g-font-weight-700 g-font-size-12 g-color-primary g-mb-15 canada_h4_margin">CANADA</h4>
+                <div id="regions_div2" "" class="maps_style"></div>
+                <h4 id="us" class="g-font-weight-700 g-font-size-12 g-color-primary g-mb-15 us_h4_topmargin ">US</h4>
+                <div id="regions_div1" class="maps_style"></div>
+            </section>             
+            <!-- Section Content -->             
+            <!-- End Section Content -->             
+            <!-- Section Content -->             
+            <section id="careers" class="g-pt-100"> 
+                <div class="container text-center g-max-width-750 g-mb-60"> 
+                    <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-20"> 
+                        <h4 class="g-font-weight-700 g-font-size-12 g-color-primary g-mb-15">Careers</h4> 
+                        <h2 class="u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-color-black g-mb-minus-10">Work with us</h2> 
+                    </div>                     
+                    <p class="g-color-gray-dark-v5 mb-0">We are always interested in well qualified and enthusiastic candidates. If you are interested in working at GeoPacific please submit your resume to <a href="mailto:careers@geopacific.ca">careers@geopacific.ca</a>.</p> 
+                </div>                 
+                <div class="u-bg-overlay g-bg-img-hero g-py-100 g-bg-primary-opacity-0_8--after" style="background-image: url('img/careers/drafter_small.jpg');"> 
+                    <div class="container u-bg-overlay__inner"> 
+                        <div class="js-carousel" data-infinite="true" data-arrows-classes="u-arrow-v1 g-pos-abs g-absolute-centered--y--md g-top-0 g-top-50x--md g-width-50 g-height-50 g-font-size-default g-color-primary g-bg-gray-dark-v1 g-opacity-0_8--hover g-transition-0_2 g-transition--ease-in" data-arrow-left-classes="fa fa-arrow-left g-left-0 g-ml-30--lg" data-arrow-right-classes="fa fa-arrow-right g-right-0 g-mr-30--lg"> 
+                            <div class="js-slide"> 
+                                <div class="container text-center g-max-width-700"> 
+                                    <h2 class="text-uppercase g-font-weight-700 g-font-size-26 g-color-white g-mb-40"><h2>UTILITY LOCATOR – VANCOUVER</h2></h2> 
+                                    <p class="g-color-white-opacity-0_8 g-mx-50--md g-mb-40">This position will entail a mixture of office and field work, with the employee applying their knowledge in geophysics and utilizing tools such as GPRs, EM scanners, geophones and other geophysics devices to gather information, solve problems, and meet client demands.</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset" href="#!"> <i class="fa fa-arrow-right g-color-primary mr-2"></i> 
+                    Full description </a> 
+                                </div>                                 
+                            </div>                             
+                            <div class="js-slide"> 
+                                <div class="container text-center g-max-width-700"> 
+                                    <h2 class="text-uppercase g-font-weight-700 g-font-size-26 g-color-white g-mb-40"><h2>ENGINEERING TECHNICIAN – VICTORIA</h2></h2> 
+                                    <p class="g-color-white-opacity-0_8 g-mb-40">The job will entail site investigations, construction reviews and inspections, data management, and writing and editing formal memos. It is expected that you would be spending most of your work onsite, however some admin work such as e mails and reporting would need to be performed out of your own home.</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset" href="#!"><i class="fa fa-arrow-right g-color-primary mr-2"></i>FULL DESCRIPTION</a> 
+                                </div>                                 
+                            </div>                             
+                            <div class="js-slide"> 
+                                <div class="container text-center g-max-width-700"> 
+                                    <h2 class="text-uppercase g-font-weight-700 g-font-size-26 g-color-white g-mb-40"><h2>EROSION AND SEDIMENT CONTROL SPECIALIST - VANCOUVER</h2></h2> 
+                                    <p class="g-color-white-opacity-0_8 g-mb-40">You will work with contractors and developers to design, implement and monitor erosion and sediment control systems for a wide variety of construction projects throughout the Lower Mainland.</p> 
+                                    <a class="btn btn-lg u-btn-darkgray u-btn-inset" href="#!"><i class="fa fa-arrow-right g-color-primary mr-2"></i>FULL DESCRIPTION</a> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <!-- End Section Content -->             
+            <!-- Footer -->             
+            <footer> 
+                <div id="contact" class="text-center g-color-gray-dark-v1 g-py-100"> 
+                    <div class="container"> 
+                        <div class="text-uppercase text-center u-heading-v2-4--bottom g-brd-primary g-mb-45"> 
+                            <h4 class="g-font-weight-700 g-font-size-12 g-color-primary g-mb-15">Contact us</h4> 
+                            <h2 class="u-heading-v2__title g-line-height-1_1 g-font-weight-700 g-font-size-40 g-color-black g-mb-minus-10">Get in touch</h2> 
+                        </div>                         
+                        <div class="row"> 
+                            <div class="col-md-6"> 
+                                <div class="text-center g-overflow-hidden g-mb-30 g-mb-0--md"> 
+                                    <div class="g-mx-minus-2 g-my-minus-2"> 
+                                        <div class="row mx-0"> 
+                                            <div class="col-sm-6 g-brd-left g-brd-bottom g-theme-brd-gray-light-v3 g-px-15 g-py-25"> 
+                                                <i class="icon-anchor d-inline-block g-font-size-50 g-color-primary g-mb-30"></i> 
+                                                <h3 class="text-uppercase g-font-size-11 g-line-height-1 g-theme-color-gray-light-v2 mb-0">Address</h3> 
+                                                <a href="https://goo.gl/maps/F9P1GWTDba42" class="g-font-size-11"><strong>1779 W. 75th Avenue Vancouver, B.C., V6P 6P2</strong></a> 
+                                            </div>                                             
+                                            <div class="col-sm-6 g-brd-left g-brd-bottom g-theme-brd-gray-light-v3 g-px-15 g-py-25"> 
+                                                <i class="icon-call-in d-inline-block g-font-size-50 g-color-primary g-mb-30"></i> 
+                                                <h3 class="text-uppercase g-font-size-11 g-line-height-1 g-theme-color-gray-light-v2 mb-0">Phone number</h3> 
+                                                <a href="tel: +16044390922" class="g-font-size-11"><strong>604-439-0922</strong></a> 
+                                            </div>                                             
+                                            <div class="col-sm-6 g-brd-left g-brd-bottom g-theme-brd-gray-light-v3 g-px-15 g-py-25"> 
+                                                <i class="icon-line icon-envelope-letter d-inline-block g-font-size-50 g-color-primary g-mb-30"></i> 
+                                                <h3 class="text-uppercase g-font-size-11 g-line-height-1 g-theme-color-gray-light-v2 mb-0">Email</h3> 
+                                                <a href="mailto:reception@geopacific.ca" class="g-font-size-11"><strong>reception@geopacific.ca</strong></a> 
+                                            </div>                                             
+                                            <div class="col-sm-6 g-brd-left g-brd-bottom g-theme-brd-gray-light-v3 g-px-15 g-py-25"> 
+                                                <i class="icon-earphones-alt d-inline-block g-font-size-50 g-color-primary g-mb-30 fa-fax fa"></i> 
+                                                <h3 class="text-uppercase g-font-size-11 g-line-height-1 g-theme-color-gray-light-v2 mb-0">Fax</h3> 
+                                                <a href="fax: +604439-9189" class="g-font-size-11"><strong>604-439-9189</strong></a> 
+                                            </div>                                             
+                                        </div>                                         
+                                        <div class="row mx-0"> 
+                                            <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v3 g-px-15 g-py-25 col-sm-12"> 
+                                                <a href="http://www.geopacific.ca/contact" class="g-font-size-11"><strong>Our Squamish, Kamloops and Calgary offices</strong></a> 
+                                            </div>                                             
+                                        </div>                                         
+                                    </div>                                     
+                                </div>                                 
+                            </div>                             
+                            <div class="col-md-6"> 
+                                <form action="https://formspree.io/reception@geopacific.ca" method="POST"> 
+                                    <div class="form-group g-mb-10"> 
+                                        <input id="inputGroup1_1" class="form-control g-font-size-default g-color-gray-dark-v5 g-placeholder-inherit g-theme-bg-gray-light-v4 g-brd-transparent g-theme-brd-gray-light-v3--focus g-rounded-1 g-px-20 g-py-12" type="text" placeholder="Your name" name="Name"> 
+                                    </div>                                     
+                                    <div class="form-group g-mb-10"> 
+                                        <input id="inputGroup1_6" class="form-control g-font-size-default g-color-gray-dark-v5 g-placeholder-inherit g-theme-bg-gray-light-v4 g-brd-transparent g-theme-brd-gray-light-v3--focus g-rounded-1 g-px-20 g-py-12" type="email" placeholder="Your work email" name="Email"> 
+                                    </div>                                     
+                                    <div class="form-group g-mb-10"> 
+                                        <input id="inputGroup1_5" class="form-control g-font-size-default g-color-gray-dark-v5 g-placeholder-inherit g-theme-bg-gray-light-v4 g-brd-transparent g-theme-brd-gray-light-v3--focus g-rounded-1 g-px-20 g-py-12" type="text" placeholder="Company" name="Company "> 
+                                    </div>                                     
+                                    <div class="form-group g-mb-10"> 
+                                        <input id="inputGroup1_3" class="form-control g-font-size-default g-color-gray-dark-v5 g-placeholder-inherit g-theme-bg-gray-light-v4 g-brd-transparent g-theme-brd-gray-light-v3--focus g-rounded-1 g-px-20 g-py-12" type="text" placeholder="Subject" name="Subject"> 
+                                    </div>                                     
+                                    <div class="form-group g-mb-40"> 
+                                        <textarea id="inputGroup1_4" class="form-control g-resize-none g-font-size-default g-color-gray-dark-v5 g-placeholder-inherit g-theme-bg-gray-light-v4 g-brd-transparent g-theme-brd-gray-light-v3--focus g-rounded-1 g-px-20 g-py-12" rows="5" placeholder="Message" name="Message"></textarea>                                         
+                                    </div>                                     
+                                    <input type="hidden" name="_next" value="http://www.geopacific.ca/"/> 
+                                    <input type="text" name="_gotcha" style="display:none"/> 
+                                    <div class="text-center"> 
+                                        <button class="btn btn-lg u-btn-darkgray u-btn-inset mx-2" type="submit" value="Send"> 
+                                            <i class="fa fa-arrow-right g-color-primary mr-2"></i> 
+                                            Send message
+                                        </button>                                         
+                                    </div>                                     
+                                </form>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+                <div class="u-bg-overlay g-bg-img-hero g-color-white g-bg-primary-opacity-0_8--after g-py-100" style="background-image: url('img/footerphoto/footer_small.JPG');"> 
+                    <div class="container text-center text-md-left u-bg-overlay__inner"> 
+                        <div class="row"> 
+                            <div class="col-md-4 col-lg-5 d-flex align-items-center g-mb-20 g-mb-0--md"> 
+                                <p class="w-100 g-font-size-default g-color-white mb-0"> 
+                  &copy; 2018 All right reserved. <a class="g-font-weight-700 g-color-white" href="#!"><strong>Geopacific Consultants Ltd.</strong></a> </p> 
+                            </div>                             
+                            <div class="col-md-4 col-lg-2 d-flex text-center align-items-center g-mb-20 g-mb-0--md"> 
+                                <p class="w-100 text-uppercase g-font-size-11 g-color-white mb-0">OUR <strong class="d-block g-font-size-22 g-mt-5">EXPERTISE</strong> AND <strong class="d-block g-font-size-22 g-mt-5">EXPERIENCE</strong> MAKE ALL THE DIFFERENCE</p> 
+                            </div>                             
+                            <div class="col-md-4 col-lg-5 g-flex-centered"> 
+                                <div class="w-100"> 
+                                    <ul class="list-inline float-lg-right mx-0 mb-0"> 
+                                        <li class="list-inline-item g-mr-10--lg"> 
+                                            <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-14 g-color-white g-color-primary--hover g-bg-gray-dark-v2 g-bg-white--hover g-transition-0_2 g-transition--ease-in" href="https://twitter.com/home?status=GeoPacific%20Consultants%0Ahttp%3A//www.geopacific.ca/"><i class="fa fa-twitter"></i></a> 
+                                        </li>                                         
+                                        <li class="list-inline-item g-mr-10--lg"> 
+                                            <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-14 g-color-white g-color-primary--hover g-bg-gray-dark-v2 g-bg-white--hover g-transition-0_2 g-transition--ease-in" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.geopacific.ca/"><i class="fa fa-facebook"></i></a> 
+                                        </li>                                         
+                                        <li class="list-inline-item g-mr-10--lg"> 
+                                            <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-14 g-color-white g-color-primary--hover g-bg-gray-dark-v2 g-bg-white--hover g-transition-0_2 g-transition--ease-in" href="https://pinterest.com/pin/create/button/?url=Geopacific%20Consultants&media=http%3A//www.geopacific.ca/&description="><i class="fa fa-pinterest-p"></i></a> 
+                                        </li>                                         
+                                        <li class="list-inline-item g-mr-10--lg"> 
+                                            <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-14 g-color-white g-color-primary--hover g-bg-gray-dark-v2 g-bg-white--hover g-transition-0_2 g-transition--ease-in" href="https://plus.google.com/share?url=http%3A//www.geopacific.ca/"><i class="fa fa-google-plus"></i></a> 
+                                        </li>                                         
+                                        <li class="list-inline-item"> 
+                                            <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-14 g-color-white g-color-primary--hover g-bg-gray-dark-v2 g-bg-white--hover g-transition-0_2 g-transition--ease-in" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//www.geopacific.ca/&title=GeoPacific%20Consultants&summary=&source="><i class="fa fa-linkedin"></i></a> 
+                                        </li>                                         
+                                    </ul>                                     
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </footer>             
+            <!-- End Footer -->             
+            <a class="js-go-to u-go-to-v1" href="#!" data-type="fixed" data-position='{
+           "bottom": 15,
+           "right": 15
+         }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn"> <i class="hs-icon hs-icon-arrow-top"></i> </a> 
+        </main>         
+        <!-- JS Global Compulsory -->         
+        <script src="assets/vendor/jquery/jquery.min.js"></script>         
+        <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>         
+        <script src="assets/vendor/popper.min.js"></script>         
+        <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>         
+        <!-- JS Implementing Plugins -->         
+        <script src="assets/vendor/appear.js"></script>         
+        <script src="assets/vendor/cubeportfolio-full/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>         
+        <script src="assets/vendor/slick-carousel/slick/slick.js"></script>         
+        <!-- JS Unify -->         
+        <script src="assets/js/hs.core.js"></script>         
+        <script src="assets/js/components/hs.header.js"></script>         
+        <script src="assets/js/helpers/hs.hamburgers.js"></script>         
+        <script src="assets/js/components/hs.scroll-nav.js"></script>         
+        <script src="assets/js/components/hs.onscroll-animation.js"></script>         
+        <script src="assets/js/components/hs.tabs.js"></script>         
+        <script src="assets/js/components/hs.cubeportfolio.js"></script>         
+        <script src="assets/js/components/hs.carousel.js"></script>         
+        <script src="assets/js/components/hs.go-to.js"></script>         
+        <!-- JS Master Slider -->         
+        <script src="assets/vendor/master-slider/source/assets/js/masterslider.min.js"></script>         
+        <!-- JS Customization -->         
+        <script src="assets/js/custom.js"></script>         
+        <!-- JS Plugins Init. -->         
+        <script>
+      $(document).on('ready', function () {
+        // initialization of carousel
+        $.HSCore.components.HSCarousel.init('.js-carousel');
+
+        $('#we-provide').slick('setOption', 'responsive', [{
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 1
+          }
+        }], true);
+
+        // initialization of header
+        $.HSCore.components.HSHeader.init($('#js-header'));
+        $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+        // initialization of HSScrollNav component
+        $.HSCore.components.HSScrollNav.init($('#js-scroll-nav'), {
+          duration: 700
+        });
+
+        // initialization of tabs
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+
+        // initialization of go to section
+        $.HSCore.components.HSGoTo.init('.js-go-to');
+      });
+
+
+      $(window).on('load', function() {
+        // initialization of cubeportfolio
+        $.HSCore.components.HSCubeportfolio.init('.cbp');
+      });
+
+      $(window).on('resize', function () {
+        setTimeout(function () {
+          $.HSCore.components.HSTabs.init('[role="tablist"]');
+        }, 200);
+      });
+
+      // initialization of carousel
+      $.HSCore.components.HSCarousel.init('.js-carousel');
+
+      $('#we-provide').slick('setOption', 'responsive', [{
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2
+        }
+      }, {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1
+        }
+      }], true);
+
+      var slider = new MasterSlider();
+
+      slider.control('arrows', {
+        autohide: true,
+        overVideo: true
+      });
+      slider.setup("masterslider", {
+        width: 1366,
+        height: 768,
+        minHeight: 0,
+        space: 0,
+        start: 1,
+        grabCursor: true,
+        swipe: true,
+        mouse: true,
+        keyboard: true,
+        layout: "fullwidth",
+        wheel: false,
+        autoplay: true,
+        instantStartLayers: true,
+        loop: true,
+        shuffle: false,
+        preload: 0,
+        heightLimit: true,
+        autoHeight: false,
+        smoothHeight: true,
+        endPause: false,
+        overPause: true,
+        fillMode: "fill",
+        centerControls: false,
+        startOnAppear: false,
+        layersMode: "center",
+        autofillTarget: "",
+        hideLayers: false,
+        fullscreenMargin: 0,
+        speed: 20,
+        dir: "h",
+        parallaxMode: 'swipe',
+        view: "parallaxMask"
+      });
+    </script>         
+    </body>     
+</html>
