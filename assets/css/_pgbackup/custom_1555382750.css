@@ -213,7 +213,7 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 80vh;
-    background-position: top center;
+    background-position: center center;
     background-image: url('../img/our_team_page/hero.jpg');
 }
 
@@ -361,15 +361,6 @@ a.btn .btn-md .g-mr-10 .g-mb-15 .u_btn_outline_white:hover {
     background-image: url('../img/excavation_shoring/shoring_small.jpg');
 }
 
-.infrastructure {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 80vh;
-    background-position: top center;
-    background-image: url('../img/infrastructure_page/infrastructure_canada_line_small.JPG');
-}
-
 .earth_structures_hero {
     background-size: cover;
     background-repeat: no-repeat;
@@ -419,4 +410,49 @@ a.btn .btn-md .g-mr-10 .g-mb-15 .u_btn_outline_white:hover {
     height: 80vh;
     background-position: top center;
     background-image: url('../img/hazard_assesment_page/hazard_assesment_small.jpg');
+}
+
+.eng_support_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/eng_support/technical_litigation_small.jpg');
+}
+
+.materials_testing {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/material_testing_page/materialtesting_small.JPG');
+}
+
+.erosion_sed_control_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/erosion_sed_control_page/erosion_sedcontrol_small.JPG');
+}
+
+.infrastructure_page {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/infrastructure_page/infrastructure_canada_line_small.JPG');
+}
+
+.hydrogeology_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/hydrogeology_page/hydrogeology_small.jpg');
 }
