@@ -213,7 +213,7 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 80vh;
-    background-position: top center;
+    background-position: center center;
     background-image: url('../img/our_team_page/hero.jpg');
 }
 
@@ -361,15 +361,6 @@ a.btn .btn-md .g-mr-10 .g-mb-15 .u_btn_outline_white:hover {
     background-image: url('../img/excavation_shoring/shoring_small.jpg');
 }
 
-.infrastructure {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 80vh;
-    background-position: top center;
-    background-image: url('../img/infrastructure_page/infrastructure_canada_line_small.JPG');
-}
-
 .earth_structures_hero {
     background-size: cover;
     background-repeat: no-repeat;
@@ -445,5 +436,41 @@ a.btn .btn-md .g-mr-10 .g-mb-15 .u_btn_outline_white:hover {
     width: 100vw;
     height: 80vh;
     background-position: top center;
-    background-image: url('../img/foundation_deisgn_page/buildings.jpg');
+    background-image: url('../img/erosion_sed_control_page/erosion_sedcontrol_small.JPG');
+}
+
+.infrastructure_page {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/infrastructure_page/infrastructure_canada_line_small.JPG');
+}
+
+.hydrogeology_hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/hydrogeology_page/hydrogeology_small.jpg');
+}
+
+.drafting_tech {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/careers/drafter.jpg');
+}
+
+.junior_lab_tech {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+    background-position: top center;
+    background-image: url('../img/careers/junior_lab_technician');
 }
